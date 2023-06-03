@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 5px auto;
+}
+.container {
+    background-image: url(images/car1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h1 {
+    text-align: center;
+    text-shadow: 5px 0.9px rgb(84, 119, 48);
+}
+.nav-links ul{
+    background-color: hsl(0, 2%, 22%);
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    overflow: auto;
+
+}
+.nav-links a {
+    color: bisque;
+    text-decoration: none;
+    padding: 20px ;
+    display: block;
+    float: right;
+}
+.nav-links a:hover {
+    background-color: hsl(0, 4%, 11%);
+}
+.main {
+    margin: 20px;
+    padding: 5px auto;
+    line-height: 1.5;
+}
