@@ -23,8 +23,8 @@ h1 {
     color: bisque;
     text-decoration: none;
     padding: 20px ;
-    display: block;
-    float: right;
+    display: inline-block;
+    float: left;
 }
 .nav-links a:hover {
     background-color: hsl(0, 4%, 11%);
